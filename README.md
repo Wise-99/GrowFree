@@ -14,11 +14,14 @@
 ## 📄 담당 업무
 
 -   EV3 설계 및 수정
--   앱 내부 디자인 및 서버와 연결 및 통신
--   물을 준 날짜를 저장하여 서버에 송신
--   데이터베이스에 저장되어 있는 날짜를 앱으로 수신
+- 앱 내부 디자인 및 서버와 연결 및 통신
+    - **Socket**을 이용하여 InfluxDB와 앱 간의 **TCP 통신** 기능 구현
+    - 물주기 버튼 클릭 시 Rasberry Pi 서버에 특정 메세지 전달하여 서버가 날짜를 저장할 수 있도록 함
 
-## 💡 깨달은 점
-
--   서버와의 통신 시에는 **IOException와 try, catch**를 통해 예외 처리를 반드시 해야 함
--   안드로이드 3.0(API 11 이상) 이상에서는 UI 스레드를 제외한 스레드에서 네트워크 작업을 수행해야 함, **NetworkOnMainThreadException**이 발생할 수 있음 → turnOn() 스레드를 이용함
+## 💡 문제 해결 과정
+-   서버는 Python 기반이고 앱은 Java 기반인데 통신이 가능할까? 라는 궁금증
+   -   양쪽에서 통신을 위해 **Socket**을 사용하여 해결
+-   통신 시작과 동시에 앱과 서버에서 **IOException** 발생
+   -   **try, catch**를 통해 IOException에 대한 예외 처리를 하여 해결
+-   **NetworkOnMainThreadException** 발생
+   -   안드로이드 3.0(API 11 이상) 이상에서는 UI Thread를 제외한 Thread에서 네트워크 작업을 수행해야 함 → **turnOn() Thread** 사용
