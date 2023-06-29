@@ -20,8 +20,8 @@
 
 ## 💡 문제 해결 과정
 -   서버는 Python 기반이고 앱은 Java 기반인데 통신이 가능할까? 라는 궁금증
-   -   양쪽에서 통신을 위해 **Socket**을 사용하여 해결
+    -   양쪽에서 통신을 위해 **Socket**을 사용하여 해결
 -   통신 시작과 동시에 앱과 서버에서 **IOException** 발생
-   -   **try, catch**를 통해 IOException에 대한 예외 처리를 하여 해결
+    -   **try, catch**를 통해 IOException에 대한 예외 처리를 하여 해결
 -   **NetworkOnMainThreadException** 발생
-   -   안드로이드 3.0(API 11 이상) 이상에서는 UI Thread를 제외한 Thread에서 네트워크 작업을 수행해야 함 → **turnOn() Thread** 사용
+    -   안드로이드 3.0(API 11 이상) 이상에서는 UI Thread를 제외한 Thread에서 네트워크 작업을 수행해야 함 → **turnOn() Thread** 사용
