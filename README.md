@@ -3,7 +3,7 @@
 ## 📖 프로젝트 소개
 | 시제품 결과물 | 앱-서버 연결 후 데이터베이스 내용 수신 | 시현 예시 화면 |
 |--|--|--|
-| ![시제품 결과물](https://file.notion.so/f/s/d636ef52-fe8f-4439-97b8-3b39b02a3edd/Untitled.png?id=daf057af-a285-4676-a244-41908a7ed9dc&table=block&spaceId=4fee607c-9fab-47df-96d0-8ba12808c88d&expirationTimestamp=1687421440027&signature=SV50CI8ujCDP6f0vIUEZoMpLtbQ1r3T5IRsXPQwx7iM&downloadName=Untitled.png) | ![앱 - 서버 연결 후 데이터베이스 내용 수신](https://github.com/Wise-99/GrowFree/assets/90273263/6c247170-0c1f-4ed8-b845-55da7067d82f) | ![](https://file.notion.so/f/s/bda20aed-58a5-48c9-887b-8d61b8efb118/Untitled.png?id=3a585649-cffd-4eac-9cbe-ee248c19003b&table=block&spaceId=4fee607c-9fab-47df-96d0-8ba12808c88d&expirationTimestamp=1687421457030&signature=xo1P-Cgb9l7mmTdTDSL6HGyPXYjVExEOpjIFJtmsXNI&downloadName=Untitled.png) |
+| ![gf결과물](https://github.com/Wise-99/GrowFree/assets/90273263/dfcffd5d-3457-47cf-9d05-ea602eb27f87) | ![gf로봇시현](https://github.com/Wise-99/GrowFree/assets/90273263/78ae2715-29ad-4e85-9448-325228443076) | ![gf로봇시현2](https://github.com/Wise-99/GrowFree/assets/90273263/88847e63-6ac7-4015-88eb-bde21000bec9) |
 
 > 🌱 앱을 통해 **외부**에서도 식물에게 물을 줄 수 있도록 만든 **원격 시제품** 프로젝트 입니다. 해당 프로젝트로 **2022 경기도 온라인 메이커 경진대회** 본선 진출 하였습니다.
 > 
